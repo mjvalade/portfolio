@@ -1,6 +1,6 @@
 body {
-font-family: 'Prompt', sans-serif;
-padding-top: 75px;
+  font-family: 'Prompt', sans-serif;
+  padding-top: 75px;
 }
 
 /*.container {
@@ -49,6 +49,7 @@ nav a {
 nav ul {
   margin-right: 10px;
 }
+
 nav li {
   display: inline-block;
   padding: 30px 5px;
@@ -66,7 +67,7 @@ h1 {
   content: " ";
 	display: block;
 	height: 75px;      /* Give height of your fixed element */
-  margin: -75px 0 0; /* Give negative margin of your fixed element */
+  margin-top: -75px; /* Give negative margin of your fixed element */
   visibility: hidden;
 }
 
