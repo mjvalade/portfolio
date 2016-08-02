@@ -84,9 +84,9 @@ h1 {
 #about-me p {
   margin-top: 30px;
   margin: auto;
-  /*height: 100px;*/
+  height: 50px;
   width: 700px;
-  color: white;
+  color: black;
   line-height: 1.4em;
 }
 
