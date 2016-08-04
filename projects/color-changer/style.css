@@ -84,9 +84,9 @@ h1 {
 #about-me p {
   margin-top: 30px;
   margin: auto;
-  /*height: 100px;*/
+  height: 50px;
   width: 700px;
-  color: white;
+  color: black;
   line-height: 1.4em;
 }
 
@@ -107,12 +107,18 @@ h2 {
   border-top: 2px solid #0C273D;
   width: auto;
   height: 250px;
+  /*display: inline-block;*/
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-align-items: center;
+        align-items: center;
+  -webkit-justify-content: center;
+        justify-content: center;
 }
 
 .pcard {
+  /*display: inline-block;*/
+  /*margin-left: 15%;*/
   margin: auto;
   width: 200px;
   font-size: 20px;
@@ -124,12 +130,17 @@ h2 {
   border-top: 2px solid #0C273D;
   width: auto;
   height: 250px;
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-align-items: center;
+        align-items: center;
+  -webkit-justify-content: center;
+        justify-content: center;
 }
 
 .ecard {
+  /*display: inline-block;*/
+  /*margin-left: 10%;*/
   margin: auto;
   width: 245px;
   font-size: 20px;
@@ -149,12 +160,17 @@ h2 {
   border-top: 2px solid #0C273D;
   width: auto;
   height: 250px;
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-align-items: center;
+        align-items: center;
+  -webkit-justify-content: center;
+        justify-content: center;
 }
 
 .wcard {
+  /*display: inline-block;*/
+  /*margin-left: 10%;*/
   margin: auto;
   width: 300px;
   font-size: 20px;
